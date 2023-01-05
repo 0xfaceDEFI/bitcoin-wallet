@@ -1,4 +1,4 @@
-module github.com/Amirilidan78/bitcoin-wallet
+module github.com/0xfaceDEFI/bitcoin-wallet
 
 go 1.18
 
