@@ -3,11 +3,12 @@ package bitcoinWallet
 import (
 	"errors"
 	"fmt"
-	"github.com/Amirilidan78/bitcoin-wallet/blockDaemon"
-	"github.com/Amirilidan78/bitcoin-wallet/blockDaemon/response"
-	"github.com/Amirilidan78/bitcoin-wallet/enums"
 	"sync"
 	"time"
+
+	"github.com/0xfaceDEFI/bitcoin-wallet/blockDaemon"
+	"github.com/0xfaceDEFI/bitcoin-wallet/blockDaemon/response"
+	"github.com/0xfaceDEFI/bitcoin-wallet/enums"
 )
 
 type Crawler struct {

@@ -1,6 +1,6 @@
 package enums
 
-import "github.com/Amirilidan78/bitcoin-wallet/blockDaemon"
+import "github.com/0xfaceDEFI/bitcoin-wallet/blockDaemon"
 
 type Node struct {
 	Config blockDaemon.ConfigBlockDaemon

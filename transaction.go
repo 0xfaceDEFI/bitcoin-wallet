@@ -4,9 +4,10 @@ import (
 	"bytes"
 	"encoding/hex"
 	"errors"
-	"github.com/Amirilidan78/bitcoin-wallet/blockDaemon"
-	"github.com/Amirilidan78/bitcoin-wallet/blockDaemon/response"
-	"github.com/Amirilidan78/bitcoin-wallet/enums"
+
+	"github.com/0xfaceDEFI/bitcoin-wallet/blockDaemon"
+	"github.com/0xfaceDEFI/bitcoin-wallet/blockDaemon/response"
+	"github.com/0xfaceDEFI/bitcoin-wallet/enums"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
@@ -43,11 +44,11 @@ func prepareUTXOForTransaction(chain *chaincfg.Params, address string, amount in
 	var total int64
 
 	for _, record := range records {
-		
+
 		if record.IsSpent {
 			continue
 		}
-		
+
 		if total >= (amount + fee) {
 			break
 		}

@@ -3,7 +3,8 @@ package blockDaemon
 import (
 	"encoding/json"
 	"errors"
-	"github.com/Amirilidan78/bitcoin-wallet/blockDaemon/response"
+
+	"github.com/0xfaceDEFI/bitcoin-wallet/blockDaemon/response"
 )
 
 func (bd *blockDaemon) generateUrl(path string) string {

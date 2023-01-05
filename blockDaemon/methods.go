@@ -1,8 +1,9 @@
 package blockDaemon
 
 import (
-	"github.com/Amirilidan78/bitcoin-wallet/blockDaemon/response"
 	"strconv"
+
+	"github.com/0xfaceDEFI/bitcoin-wallet/blockDaemon/response"
 )
 
 func (bd *blockDaemon) CurrentBlockNumber() (response.CurrentBlockNumberResponse, error) {
