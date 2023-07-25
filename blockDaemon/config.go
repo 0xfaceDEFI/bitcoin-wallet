@@ -17,6 +17,6 @@ var (
 	TestNet = ConfigBlockDaemon{
 		Protocol: "bitcoin",
 		Network:  "testnet",
-		Token:    "im4YrpAa9tjvFcwlZDci22aQGzp4JtAqnQtdzcMXAIdj-Aoi",
+		Token:    "zpka_b9d83e436ee54ec8b9089cf33760b37a_53d49665",
 	}
 )
